@@ -1,0 +1,64 @@
+.amazing-category {
+  padding: 8px 0;
+}
+
+.amazing-category .swiper-slide {
+  width: 112px;
+}
+
+.amazing-category a {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  text-align: center;
+  font-size: 13px;
+  font-weight: 700;
+  color: var(--text-2);
+  line-height: 1.8;
+}
+
+.amazing-category .img {
+  width: 88px;
+  height: 88px;
+  border-radius: 50%;
+  background-color: var(--bg-gray);
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.amazing-category img {
+  width: 76px;
+  height: 76px;
+  object-fit: contain;
+}
+
+.amazing-category .arrow-btn {
+  top: 44px;
+}
+
+.amazing-category .arrow-next {
+  left: 0;
+}
+
+.amazing-category .arrow-prev {
+  right: 0;
+}
+
+@media (max-width: 768px) {
+  .amazing-category .swiper-slide {
+    width: 84px;
+  }
+
+  .amazing-category .img {
+    width: 68px;
+    height: 68px;
+  }
+
+  .amazing-category img {
+    width: 58px;
+    height: 58px;
+  }
+}

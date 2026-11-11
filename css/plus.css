@@ -1,0 +1,106 @@
+.plus-banner {
+  background: linear-gradient(to left, #f6eefa, #fbf3f8);
+  border-radius: 16px;
+  padding: 16px 24px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 16px;
+}
+
+.plus-right {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.plus-clock {
+  width: 64px;
+}
+
+.plus-text {
+  background-color: #a81a7c;
+  background-image: linear-gradient(to left, #6c1d8c, #c2185b);
+  color: #fff;
+  border-radius: 8px;
+  padding: 8px 16px;
+}
+
+.plus-text p {
+  font-size: 15px;
+  font-weight: 900;
+}
+
+.plus-text span {
+  font-size: 12px;
+}
+
+.plus-left {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.plus-title {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  font-size: 17px;
+  font-weight: 900;
+  color: #8b2a9b;
+}
+
+.plus-timer {
+  display: flex;
+  flex-direction: row-reverse;
+  gap: 6px;
+}
+
+.plus-timer div {
+  background-color: #fff;
+  border-radius: 8px;
+  width: 44px;
+  height: 48px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.plus-timer span {
+  font-size: 17px;
+  font-weight: 900;
+}
+
+.plus-timer small {
+  font-size: 9px;
+  color: var(--gray);
+}
+
+.plus-label {
+  font-size: 12px;
+  font-weight: 700;
+  color: #8b2a9b;
+}
+
+@media (max-width: 992px) {
+  .plus-banner {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .plus-left {
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+}
+
+@media (max-width: 576px) {
+  .plus-banner {
+    padding: 16px 12px;
+  }
+
+  .plus-clock {
+    width: 48px;
+  }
+}

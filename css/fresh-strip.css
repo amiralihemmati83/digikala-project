@@ -1,0 +1,31 @@
+.fresh-strip {
+  background-color: #eaf5e3;
+}
+
+.strip-icon {
+  width: 56px;
+}
+
+.strip-typo {
+  width: 190px;
+}
+
+.strip-off {
+  background-color: #39ae00;
+  color: #fff;
+  font-size: 13px;
+  font-weight: 700;
+  border-radius: 16px;
+  padding: 4px 12px;
+  white-space: nowrap;
+}
+
+.fresh-strip .strip-btn i {
+  color: #39ae00;
+}
+
+@media (max-width: 576px) {
+  .strip-typo {
+    width: 150px;
+  }
+}

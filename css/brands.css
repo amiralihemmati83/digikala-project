@@ -1,0 +1,33 @@
+.brands .box-head {
+  justify-content: center;
+}
+
+.brands .swiper-slide {
+  width: 140px;
+  border-left: 1px solid var(--bg-gray);
+}
+
+.brands .swiper-slide a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  padding: 0 16px;
+}
+
+.brands .swiper-slide img {
+  width: 100px;
+  height: 100px;
+  object-fit: contain;
+}
+
+@media (max-width: 768px) {
+  .brands .swiper-slide {
+    width: 110px;
+  }
+
+  .brands .swiper-slide img {
+    width: 80px;
+    height: 80px;
+  }
+}

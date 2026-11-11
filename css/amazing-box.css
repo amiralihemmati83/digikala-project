@@ -1,0 +1,129 @@
+/* red box of amazing offers */
+.amazing-box {
+  background-color: #ef394e;
+  border-radius: 16px;
+  padding: 20px 0;
+  position: relative;
+}
+
+.amazing-box .swiper {
+  padding: 0 4px 0 12px;
+}
+
+.amazing-box .swiper-slide {
+  width: 180px;
+  height: auto;
+}
+
+.amazing-box .swiper-slide.amazing-intro {
+  width: 172px;
+}
+
+.amazing-intro a {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  color: #fff;
+}
+
+.amazing-intro .typo {
+  width: 88px;
+}
+
+.amazing-intro .box-img {
+  width: 108px;
+}
+
+.timer {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  direction: ltr;
+  font-weight: 700;
+}
+
+.timer span {
+  background-color: #fff;
+  color: var(--text);
+  border-radius: 6px;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+  font-weight: 900;
+}
+
+.amazing-intro .see-all {
+  color: #fff;
+  font-size: 14px;
+}
+
+.amazing-box .product-card {
+  padding: 12px 8px;
+}
+
+.amazing-box .swiper-slide:nth-child(2) .product-card {
+  border-radius: 0 8px 8px 0;
+}
+
+.amazing-box .product-card {
+  margin-left: 2px;
+}
+
+.amazing-box .see-more-card {
+  background-color: #fff;
+  border-radius: 8px 0 0 8px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  font-size: 14px;
+  color: var(--text-2);
+}
+
+.see-more-card i {
+  width: 52px;
+  height: 52px;
+  border: 1px solid var(--blue);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 28px;
+  color: var(--blue);
+}
+
+.amazing-box .product-price {
+  margin-top: 8px;
+}
+
+.amazing-box .old-price {
+  padding-left: 18px;
+}
+
+@media (max-width: 768px) {
+  .amazing-box {
+    border-radius: 0;
+    margin: 0 -12px;
+    padding: 16px 0;
+  }
+
+  .amazing-box .swiper-slide {
+    width: 150px;
+  }
+
+  .amazing-box .swiper-slide.amazing-intro {
+    width: 130px;
+  }
+
+  .amazing-intro .box-img {
+    width: 80px;
+  }
+}

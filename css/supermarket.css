@@ -1,0 +1,20 @@
+/* green version (supermarket) */
+.amazing-box.fresh {
+  background-color: #6bb927;
+  background-image: linear-gradient(to left, #6bb927, #73c42c);
+}
+
+.amazing-box.fresh .fresh-title {
+  font-size: 22px;
+  font-weight: 900;
+  text-align: center;
+}
+
+.amazing-box.fresh .fresh-off {
+  background-color: #fff;
+  color: #39ae00;
+  font-size: 12px;
+  font-weight: 700;
+  border-radius: 16px;
+  padding: 2px 12px;
+}

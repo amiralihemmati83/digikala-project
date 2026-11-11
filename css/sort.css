@@ -1,0 +1,39 @@
+.sort-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid var(--bg-gray);
+  padding-bottom: 12px;
+}
+
+.sort-list {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  font-size: 13px;
+  font-weight: 500;
+  color: var(--gray);
+  overflow-x: auto;
+  scrollbar-width: none;
+}
+
+.sort-list li {
+  white-space: nowrap;
+}
+
+.sort-label {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  font-weight: 700;
+  color: var(--text-2);
+}
+
+.sort-label i {
+  font-size: 20px;
+}
+
+.sort-list a.active {
+  color: var(--red);
+  font-weight: 700;
+}

@@ -1,0 +1,24 @@
+.amazing-hero {
+  height: 140px;
+  background: linear-gradient(to top, #ef4056, #ef394e);
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+}
+
+.amazing-hero h1 {
+  color: #fff;
+  font-size: 30px;
+  font-weight: 900;
+}
+
+@media (max-width: 768px) {
+  .amazing-hero {
+    height: 110px;
+    padding-top: 14px;
+  }
+
+  .amazing-hero h1 {
+    font-size: 20px;
+  }
+}

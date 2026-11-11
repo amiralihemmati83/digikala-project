@@ -1,0 +1,42 @@
+.offer-box {
+  padding-top: 0;
+}
+
+.offer-box .box-head {
+  border-bottom: 1px solid var(--bg-gray);
+  margin-bottom: 0;
+}
+
+.offer-title {
+  font-size: 17px;
+  font-weight: 900;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 16px 0 12px;
+  border-bottom: 2px solid var(--red);
+}
+
+.offer-title i {
+  font-size: 20px;
+}
+
+.offer-box .swiper-slide {
+  width: 200px;
+  height: auto;
+  border-left: 1px solid var(--bg-gray);
+}
+
+.offer-box .product-card {
+  padding: 16px 12px;
+}
+
+.offer-box .product-card:hover {
+  box-shadow: none;
+}
+
+@media (max-width: 768px) {
+  .offer-box .swiper-slide {
+    width: 165px;
+  }
+}

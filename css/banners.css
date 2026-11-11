@@ -1,0 +1,46 @@
+.banners {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 16px;
+}
+
+.banners.two {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.banners a {
+  display: block;
+  border-radius: 16px;
+  overflow: hidden;
+}
+
+.banners img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: 0.4s;
+}
+
+.banners a:hover img {
+  transform: scale(1.02);
+}
+
+@media (max-width: 992px) {
+  .banners {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 576px) {
+  .banners {
+    gap: 8px;
+  }
+
+  .banners.two {
+    grid-template-columns: 1fr;
+  }
+
+  .banners a {
+    border-radius: 12px;
+  }
+}

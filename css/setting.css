@@ -1,0 +1,99 @@
+@font-face {
+  font-family: "vazir";
+  src: url("../fonts/Vazirmatn-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-display: swap;
+}
+@font-face {
+  font-family: "vazir";
+  src: url("../fonts/Vazirmatn-Medium.woff2") format("woff2");
+  font-weight: 500;
+  font-display: swap;
+}
+@font-face {
+  font-family: "vazir";
+  src: url("../fonts/Vazirmatn-Bold.woff2") format("woff2");
+  font-weight: 700;
+  font-display: swap;
+}
+@font-face {
+  font-family: "vazir";
+  src: url("../fonts/Vazirmatn-Black.woff2") format("woff2");
+  font-weight: 900;
+  font-display: swap;
+}
+
+:root {
+  --red: #ef4056;
+  --red-dark: #e6123d;
+  --text: #080a38;
+  --text-2: #3f4064;
+  --gray: #81858b;
+  --gray-light: #c0c2c5;
+  --border: #e0e0e2;
+  --bg-gray: #f0f0f1;
+  --green: #6bb927;
+  --blue: #19bfd3;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "vazir", tahoma, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--text);
+  background-color: #fff;
+  direction: rtl;
+  overflow-x: hidden;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+button,
+input {
+  font-family: inherit;
+  border: none;
+  outline: none;
+  background: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+.container {
+  max-width: 1336px;
+  margin: 0 auto;
+  padding: 0 16px;
+}
+
+.section {
+  margin-top: 24px;
+}
+
+@media (max-width: 768px) {
+  .container {
+    padding: 0 12px;
+  }
+}
